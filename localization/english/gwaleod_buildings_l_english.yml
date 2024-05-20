@@ -1,0 +1,10 @@
+﻿l_english:
+ building_type_sarn_01: "Sarn Badrig"
+ building_type_sarn_01_desc: "The Causeway of Saint Patrick is a monumental stone wall holding the storm-wracked waters of Cardigan Bay back from the plains of Cantre'r Gwaleod. So long as the dike holds, this mythical kingdom will flourish." 
+ building_sarn_01: "$building_type_sarn_01$"
+ building_sarn_01_desc: "$building_type_sarn_01_desc$"
+
+ building_type_sarn_02: "Sarn Badrig"
+ building_type_sarn_02_desc: "Rebuilt with cunning craft, the Causeway of Saint Patrick towers over Cardigan Bay. Beyond the great dike, the flourishing land of Cantre'r Gwaleod grows rich beyond any bard's telling." 
+ building_sarn_02: "$building_type_sarn_01$"
+ building_sarn_02_desc: "$building_type_sarn_01_desc$"

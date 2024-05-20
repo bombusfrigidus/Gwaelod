@@ -1,0 +1,16 @@
+﻿gwaleod_intro_events = {
+
+	# Gwyddno Garanhir
+	character:gwyddno = { 
+		if = {
+			limit = {
+				is_landed = yes
+				is_alive = yes
+			}
+			trigger_event = {
+				id = gwaleod_intro_event.0001
+				days = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+﻿bm_867_gwaleod = {
+	start_date = 867.1.1
+	is_playable = yes
+	group = bm_group_867
+
+	weight = {
+		value = 200
+	}
+
+	# Gwyddno Garanhir, mythical king of Cantre'r Gwaelod. ID: gwyddno
+	character = {
+		name = "bookmark_gwaleod_gwyddno"
+		dynasty = dynn_gwaleod
+		dynasty_splendor_level = 2
+		type = male
+		birth = 831.3.7
+		title = d_gwaleod
+		government = feudal_government
+		culture = welsh
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = gwyddno
+		position = { 600 500 }
+		animation = personality_honorable
+	}	
+}

@@ -1,0 +1,11 @@
+content_source
+gfx/interface
+gfx/map/terrain
+map_data/heightmap.png
+map_data/indirection_heightmap.png
+map_data/packed_heightmap.png
+map_data/provinces.png
+map_data/rivers.png
+tools
+Gwaelod.code-workspace
+thumbnail.png

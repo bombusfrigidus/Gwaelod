@@ -1,0 +1,36 @@
+﻿d_gwaleod = {
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=blue
+	color3=blue
+	colored_emblem={
+		color1=white
+		texture="ce_ordinary_chevron_3.dds"
+	}
+}
+
+c_gwaleod = {
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=black
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_ordinary_chevron_3.dds"
+	}
+}
+
+b_caer_gwyddno = {
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=blue
+	color3=blue
+	colored_emblem={
+		color1=white
+		texture="ce_tower.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.770000 0.770000 }
+		}
+	}
+}

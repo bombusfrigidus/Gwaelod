@@ -1,0 +1,31 @@
+# e_britannia
+#  k_wales
+#   d_gwaleod
+#    c_gwaleod
+
+9661 = {
+    culture = welsh
+    religion = catholic
+    holding = castle_holding
+
+	767.1.1 = {
+		special_building = sarn_01
+	}
+
+}
+
+9662 = {
+	holding = none
+}
+
+9663 = {
+	holding = none
+}
+
+9664 = {
+	holding = city_holding
+}
+
+9665 = {
+	holding = church_holding
+}

@@ -1,0 +1,28 @@
+﻿namespace = gwaleod_intro_event
+
+# Intro for Gwyddno Garanhir
+gwaleod_intro_event.0001 = { 
+	type = character_event
+	title = gwaleod_intro_event.0001.t
+	desc = gwaleod_intro_event.0001.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	artifact = {
+		target = scope:historical_artifact_mwys
+		position = lower_right_portrait
+		trigger = { exists = scope:historical_artifact_mwys }
+	}
+	immediate = {
+		random_character_artifact = {
+			limit = { has_variable = historical_artifact_mwys }
+			save_scope_as = historical_artifact_mwys
+		}
+	}
+	option = {
+		name = gwaleod_intro_event.0001.a
+		add_prestige = minor_prestige_gain
+	}
+}

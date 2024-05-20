@@ -1,0 +1,4 @@
+﻿dynn_gwaleod = {
+	name = "dynn_gwaleod"
+	culture = "welsh"
+}

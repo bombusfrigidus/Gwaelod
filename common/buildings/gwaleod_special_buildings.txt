@@ -1,0 +1,77 @@
+﻿###############
+# Sarn Badrig #
+###############
+
+sarn_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_peat_quarries.dds"
+	
+	can_construct_potential = { always = no }
+	
+	cost_gold = 600
+
+	character_modifier = {
+		learning = 1
+		stewardship = 1
+	}
+
+	county_modifier = {
+		tax_mult = 1.0
+		development_growth_factor = 0.50
+		development_growth = 0.25
+	}
+
+	next_building = sarn_02
+
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+
+}
+
+sarn_02 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_peat_quarries.dds"
+	
+	can_construct_potential = { building_requirement_tribal = no }
+	
+	cost_gold = 400
+
+	character_modifier = {
+		learning = 1
+		stewardship = 1
+		learning_per_prestige_level = 1
+		stewardship_per_prestige_level = 1
+	}
+
+	county_modifier = {
+		tax_mult = 2.0
+		development_growth_factor = 1.00
+		development_growth = 0.50
+	}
+
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+
+}

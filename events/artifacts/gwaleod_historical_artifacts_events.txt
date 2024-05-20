@@ -1,0 +1,14 @@
+﻿namespace = gwaleod_historical_artifacts
+
+# Get Gwyddno Garanhir his magic basket.
+
+gwaleod_historical_artifacts.0001 = {
+	scope = none
+	hidden = yes
+
+	immediate = {
+		character:gwyddno = { 
+			create_artifact_mwys_effect = { OWNER = this }
+		}
+	}
+}

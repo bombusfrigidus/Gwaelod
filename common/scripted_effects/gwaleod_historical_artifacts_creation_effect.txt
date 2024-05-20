@@ -1,0 +1,78 @@
+﻿set_artifact_rarity_common = {
+	save_scope_value_as = {
+		name = quality
+		value = 15
+	}
+	save_scope_value_as = {
+		name = wealth
+		value = 15
+	}
+}
+
+set_artifact_rarity_masterwork = {
+	save_scope_value_as = {
+		name = quality
+		value = 30
+	}
+	save_scope_value_as = {
+		name = wealth
+		value = 30
+	}
+}
+
+set_artifact_rarity_famed = {
+	save_scope_value_as = {
+		name = quality
+		value = 70
+	}
+	save_scope_value_as = {
+		name = wealth
+		value = 70
+	}
+}
+
+set_artifact_rarity_illustrious = {
+	save_scope_value_as = {
+		name = quality
+		value = 100
+	}
+	save_scope_value_as = {
+		name = wealth
+		value = 100
+	}
+}
+
+create_artifact_mwys_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = mwys
+		description = mwys_desc
+		creator = character:gwyddno # Gwyddno Garanhir
+		type = miscellaneous
+		visuals = pouch
+		wealth = scope:wealth
+		quality = scope:quality
+		template = mwys_template
+		history = {
+			type = created
+			date = 854.8.6
+			recipient = character:gwyddno # Gwyddno Garanhir
+			location = province:9661 # Caer Gwyddno
+		}
+		modifier = mwys_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = historical_artifact_mwys
+		save_scope_as = epic
+		equip_artifact_to_owner = yes
+	}
+}

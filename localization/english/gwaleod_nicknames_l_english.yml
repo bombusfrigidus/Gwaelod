@@ -1,0 +1,3 @@
+﻿l_english:
+ nick_garanhir: "Garanhir"
+ nick_garanhir_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for [CharYourHerHis(CHARACTER)] towering legs and powerful stride, thus the sobriquet "crane-legs.""

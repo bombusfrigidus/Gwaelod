@@ -1,0 +1,35 @@
+﻿# Gwyddno Garanhir, mythical king of Cantre'r Gwaelod.
+#  en.wikipedia.org/wiki/Gwyddno_Garanhir
+gwyddno = { 
+	name = "Gwyddno"
+	dynasty = dynn_gwaleod
+	dna = dna_gwyddno
+
+	religion = "catholic"
+	culture = "welsh"
+
+	trait = education_stewardship_3
+	trait = athletic
+	trait = ambitious
+	trait = diligent
+	trait = honest
+
+	diplomacy = 9
+	martial = 9
+	stewardship = 9
+	intrigue = 9
+	learning = 9
+
+	831.3.7 = {
+		birth = yes
+	}
+	861.1.1 = {
+		give_nickname = nick_garanhir
+		effect = {
+			dynasty = { add_dynasty_prestige_level = 2 }
+		}
+	}
+	894.7.3 = {
+		death = yes
+	}
+}
