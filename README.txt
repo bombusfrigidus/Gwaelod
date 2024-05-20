@@ -8,4 +8,7 @@ Thanks to:
  - Llyfrgell Genedlaethol Cymru, the National Library of Wales, for information on the Black Book of Carmarthen.
     - https://www.library.wales/discover-learn/digital-exhibitions/manuscripts/the-middle-ages/the-black-book-of-carmarthen
 
-Contact BOMBUS_FRIGIDUS with any questions (github.com/bombusfrigidus, bombus_frigidus@gmail.com, bombus_frigidus on Discord).
+Contact BOMBUS_FRIGIDUS with any questions.
+ - github.com/bombusfrigidus
+ - bombus_frigidus@gmail.com
+ - bombus_frigidus on Discord
